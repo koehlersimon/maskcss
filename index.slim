@@ -1,5 +1,5 @@
-include ../_masks
-include ../_classes
+include slim/_masks
+include slim/_classes
 <!doctype html>
 html
     head
@@ -42,7 +42,7 @@ html
                                     - for mask in masks do
                                         .col id="#{mask[0]}"
                                             h6.fw-bold.text-center #{mask[0]}
-                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/canyon.jpg" alt="Masked image style #{mask}" title="#{mask}"
+                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/photos/canyon.jpg" alt="Masked image style #{mask}" title="#{mask}"
 
                             h2#helpers.display-3.fw-bold.my-5.text-center Helper Classes
                             .container
@@ -54,7 +54,7 @@ html
                                                 p #{item[1]}
                                                 code.p-2.border.bg-light.d-block.mb-3 &lt;img class="mask #{item[0]} #{item[2]}" src="img/image.jpg"&gt;
                                                 .border
-                                                    img class="img-fluid mask #{item[0]} #{item[2]}" src="img/northernlight.jpg" alt="#{item[0]}"
+                                                    img class="img-fluid mask #{item[0]} #{item[2]}" src="img/photos/northernlight.jpg" alt="#{item[0]}"
 
         footer.text-center.py-5.border-top
             small &copy; 2022 Simon Köhler | Made with the amazing Bootstrap Framework
