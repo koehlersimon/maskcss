@@ -1,0 +1,63 @@
+include ../_masks
+include ../_classes
+<!doctype html>
+html
+    head
+        meta charset="utf-8"
+        meta name="viewport" content="width=device-width, initial-scale=1"
+        title MASK.CSS
+        link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"
+        link rel="stylesheet" href="../mask.css"
+    body
+        div
+            .row.g-0
+
+                .col-md-3.col-lg-2.border-end
+
+                    ul.list-group.list-group-flush.p-0
+                        li.list-group-item.fw-bold.bg-light SHAPES
+                        - for mask in masks do
+                            li.list-group-item
+                                a href="##{mask[0]}" #{mask[0]}
+                    ul.list-group.list-group-flush.p-0.border-top.sticky-top
+                        li.list-group-item.fw-bold.bg-light
+                            a href="#helpers" HELPER CLASSES
+                        - for item in classes do
+                            li.list-group-item
+                                a href="##{item[0]}" #{item[0]}
+
+                .col-md-8.col-lg-9
+
+                    main.p-5
+
+                        section
+                            h1.display-3.fw-bold.pb-4 MASK.CSS
+                            p.lead MASK.CSS is a pure CSS library with hundreds of razor sharp vector mask effects for images on your website. Just assign a few CSS classes to an image and let the magic begin.
+                            hr.my-5
+
+                        section.py-3
+
+                            .container
+                                .row.g-5.row-cols-1.row-cols-lg-2.row-cols-xl-4
+                                    - for mask in masks do
+                                        .col id="#{mask[0]}"
+                                            h6.fw-bold.text-center #{mask[0]}
+                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/canyon.jpg" alt="Masked image style #{mask}" title="#{mask}"
+
+                            h2#helpers.display-3.fw-bold.my-5.text-center Helper Classes
+                            .container
+                                .row
+                                    - for item in classes do
+                                        .col-md-6 id="#{item[0]}"
+                                            .p-4.border.shadow-sm.mb-2
+                                                h5.fw-bold .#{item[0]}
+                                                p #{item[1]}
+                                                code.p-2.border.bg-light.d-block.mb-3 &lt;img class="mask #{item[0]} #{item[2]}" src="img/image.jpg"&gt;
+                                                .border
+                                                    img class="img-fluid mask #{item[0]} #{item[2]}" src="img/northernlight.jpg" alt="#{item[0]}"
+
+        footer.text-center.py-5.border-top
+            small &copy; 2022 Simon Köhler | Made with the amazing Bootstrap Framework
+
+    script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"
+    script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"
