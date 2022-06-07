@@ -64,33 +64,9 @@
   -webkit-mask-repeat: repeat-y;
   mask-repeat: repeat-y;
 }
-.mask.mask-rectangles-transparent {
-  -webkit-mask-image: url("../img/rectangles-transparent.png");
-  mask-image: url("../img/rectangles-transparent.png");
-}
-.mask.mask-polygon {
-  -webkit-mask-image: url("../img/polygon.svg");
-  mask-image: url("../img/polygon.svg");
-}
-.mask.mask-rounded {
-  -webkit-mask-image: url("../img/rounded.svg");
-  mask-image: url("../img/rounded.svg");
-}
-.mask.mask-circle {
-  -webkit-mask-image: url("../img/circle.svg");
-  mask-image: url("../img/circle.svg");
-}
-.mask.mask-stroke {
-  -webkit-mask-image: url("../img/stroke.svg");
-  mask-image: url("../img/stroke.svg");
-}
-.mask.mask-bubbles {
-  -webkit-mask-image: url("../img/bubbles.svg");
-  mask-image: url("../img/bubbles.svg");
-}
-.mask.mask-bubbles-top-left {
-  -webkit-mask-image: url("../img/bubbles-top-left.svg");
-  mask-image: url("../img/bubbles-top-left.svg");
+.mask.mask-arrow-right {
+  -webkit-mask-image: url("../img/arrow-right.svg");
+  mask-image: url("../img/arrow-right.svg");
 }
 .mask.mask-bubbles-bottom-left {
   -webkit-mask-image: url("../img/bubbles-bottom-left.svg");
@@ -100,25 +76,53 @@
   -webkit-mask-image: url("../img/bubbles-bottom-right.svg");
   mask-image: url("../img/bubbles-bottom-right.svg");
 }
+.mask.mask-bubbles-top-left {
+  -webkit-mask-image: url("../img/bubbles-top-left.svg");
+  mask-image: url("../img/bubbles-top-left.svg");
+}
 .mask.mask-bubbles-top-right {
   -webkit-mask-image: url("../img/bubbles-top-right.svg");
   mask-image: url("../img/bubbles-top-right.svg");
 }
-.mask.mask-bubbling-top {
-  -webkit-mask-image: url("../img/bubbling-top.svg");
-  mask-image: url("../img/bubbling-top.svg");
-}
-.mask.mask-bubbling-bottom {
-  -webkit-mask-image: url("../img/bubbling-bottom.svg");
-  mask-image: url("../img/bubbling-bottom.svg");
+.mask.mask-bubbles {
+  -webkit-mask-image: url("../img/bubbles.svg");
+  mask-image: url("../img/bubbles.svg");
 }
 .mask.mask-bubbling-bottom-inverse {
   -webkit-mask-image: url("../img/bubbling-bottom-inverse.svg");
   mask-image: url("../img/bubbling-bottom-inverse.svg");
 }
+.mask.mask-bubbling-bottom {
+  -webkit-mask-image: url("../img/bubbling-bottom.svg");
+  mask-image: url("../img/bubbling-bottom.svg");
+}
 .mask.mask-bubbling-top-inverse {
   -webkit-mask-image: url("../img/bubbling-top-inverse.svg");
   mask-image: url("../img/bubbling-top-inverse.svg");
+}
+.mask.mask-bubbling-top {
+  -webkit-mask-image: url("../img/bubbling-top.svg");
+  mask-image: url("../img/bubbling-top.svg");
+}
+.mask.mask-circle {
+  -webkit-mask-image: url("../img/circle.svg");
+  mask-image: url("../img/circle.svg");
+}
+.mask.mask-corner-bottom-left {
+  -webkit-mask-image: url("../img/corner-bottom-left.svg");
+  mask-image: url("../img/corner-bottom-left.svg");
+}
+.mask.mask-corner-bottom-right {
+  -webkit-mask-image: url("../img/corner-bottom-right.svg");
+  mask-image: url("../img/corner-bottom-right.svg");
+}
+.mask.mask-corner-top-left {
+  -webkit-mask-image: url("../img/corner-top-left.svg");
+  mask-image: url("../img/corner-top-left.svg");
+}
+.mask.mask-corner-top-right {
+  -webkit-mask-image: url("../img/corner-top-right.svg");
+  mask-image: url("../img/corner-top-right.svg");
 }
 .mask.mask-grungeborder-1 {
   -webkit-mask-image: url("../img/grungeborder-1.svg");
@@ -128,11 +132,55 @@
   -webkit-mask-image: url("../img/grungeborder-2.svg");
   mask-image: url("../img/grungeborder-2.svg");
 }
+.mask.mask-polygon {
+  -webkit-mask-image: url("../img/polygon.svg");
+  mask-image: url("../img/polygon.svg");
+}
+.mask.mask-rectangles-transparent {
+  -webkit-mask-image: url("../img/rectangles-transparent.svg");
+  mask-image: url("../img/rectangles-transparent.svg");
+}
+.mask.mask-rounded {
+  -webkit-mask-image: url("../img/rounded.svg");
+  mask-image: url("../img/rounded.svg");
+}
 .mask.mask-shooting-star {
   -webkit-mask-image: url("../img/shooting-star.svg");
   mask-image: url("../img/shooting-star.svg");
 }
+.mask.mask-striped-30-left {
+  -webkit-mask-image: url("../img/striped-30-left.svg");
+  mask-image: url("../img/striped-30-left.svg");
+}
+.mask.mask-striped-30-right {
+  -webkit-mask-image: url("../img/striped-30-right.svg");
+  mask-image: url("../img/striped-30-right.svg");
+}
+.mask.mask-striped {
+  -webkit-mask-image: url("../img/striped.svg");
+  mask-image: url("../img/striped.svg");
+}
+.mask.mask-stroke {
+  -webkit-mask-image: url("../img/stroke.svg");
+  mask-image: url("../img/stroke.svg");
+}
+.mask.mask-terrain-bottom {
+  -webkit-mask-image: url("../img/terrain-bottom.svg");
+  mask-image: url("../img/terrain-bottom.svg");
+}
+.mask.mask-terrain-top {
+  -webkit-mask-image: url("../img/terrain-top.svg");
+  mask-image: url("../img/terrain-top.svg");
+}
+.mask.mask-terrain {
+  -webkit-mask-image: url("../img/terrain.svg");
+  mask-image: url("../img/terrain.svg");
+}
 .mask.mask-tilt-left {
   -webkit-mask-image: url("../img/tilt-left.svg");
   mask-image: url("../img/tilt-left.svg");
+}
+.mask.mask-vintage-tiles {
+  -webkit-mask-image: url("../img/vintage-tiles.svg");
+  mask-image: url("../img/vintage-tiles.svg");
 }

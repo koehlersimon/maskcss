@@ -1,23 +1,4 @@
-$shapes:(
-    "rectangles-transparent": '../img/rectangles-transparent.png',
-    "polygon": '../img/polygon.svg',
-    "rounded": '../img/rounded.svg',
-    "circle": '../img/circle.svg',
-    "stroke": '../img/stroke.svg',
-    "bubbles": '../img/bubbles.svg',
-    "bubbles-top-left": '../img/bubbles-top-left.svg',
-    "bubbles-bottom-left": '../img/bubbles-bottom-left.svg',
-    "bubbles-bottom-right": '../img/bubbles-bottom-right.svg',
-    "bubbles-top-right": '../img/bubbles-top-right.svg',
-    "bubbling-top": '../img/bubbling-top.svg',
-    "bubbling-bottom": '../img/bubbling-bottom.svg',
-    "bubbling-bottom-inverse": '../img/bubbling-bottom-inverse.svg',
-    "bubbling-top-inverse": '../img/bubbling-top-inverse.svg',
-    "grungeborder-1": '../img/grungeborder-1.svg',
-    "grungeborder-2": '../img/grungeborder-2.svg',
-    "shooting-star": '../img/shooting-star.svg',
-    "tilt-left": '../img/tilt-left.svg'
-    );
+@import "scss/_masks";
 
 $sizes:(
     "5": 5% 5%,
