@@ -7,7 +7,8 @@ $sizes:(
     "50": 50% 50%,
     "75": 75% 75%,
     "100": 100% 100%,
-    "cover": cover
+    "cover": cover,
+    "contain": contain
 );
 
 .mask{
@@ -23,11 +24,6 @@ $sizes:(
         }
     }
 
-
-    &.mask-size-contain{
-        -webkit-mask-size: contain;
-        mask-size: contain;
-    }
     &.mask-x-center{
         -webkit-mask-position-x: center;
         mask-position-x: center;
