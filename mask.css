@@ -64,6 +64,10 @@
   -webkit-mask-repeat: repeat-y;
   mask-repeat: repeat-y;
 }
+.mask.mask-arrow-left {
+  -webkit-mask-image: url("../img/arrow-left.svg");
+  mask-image: url("../img/arrow-left.svg");
+}
 .mask.mask-arrow-right {
   -webkit-mask-image: url("../img/arrow-right.svg");
   mask-image: url("../img/arrow-right.svg");
@@ -135,10 +139,6 @@
 .mask.mask-polygon {
   -webkit-mask-image: url("../img/polygon.svg");
   mask-image: url("../img/polygon.svg");
-}
-.mask.mask-rectangles-transparent {
-  -webkit-mask-image: url("../img/rectangles-transparent.svg");
-  mask-image: url("../img/rectangles-transparent.svg");
 }
 .mask.mask-rounded {
   -webkit-mask-image: url("../img/rounded.svg");
