@@ -11,6 +11,10 @@ $sizes:(
     "contain": contain
 );
 
+/*
+This library has been created by Simon Köhler (c) 2022
+*/
+
 .mask{
     -webkit-mask-image: url('img/circle.svg');
     mask-image: url('img/circle.svg');
