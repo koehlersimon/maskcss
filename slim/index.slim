@@ -13,7 +13,7 @@ html
         div
             .row.g-0
 
-                .col-md-3.col-lg-2.border-end
+                .col-md-3.col-lg-2.border-end.order-1.order-md-0
 
                     ul.list-group.list-group-flush.p-0
                         li.list-group-item.fw-bold.bg-light SHAPES
@@ -32,7 +32,9 @@ html
                     main.p-5
 
                         section
-                            h1.display-3.fw-bold.pb-4 MASK.CSS
+                            .d-flex.justify-content-between.pb-4.alignt-items-center
+                                h1.display-3.fw-bold MASK.CSS
+                                a.btn.btn-dark href="https://github.com/koehlersimon/maskcss" GITHUB
                             p.lead MASK.CSS is a pure CSS library with hundreds of razor sharp vector mask effects for images on your website. Just assign a few CSS classes to an image and let the magic begin.
                             hr.my-5
 
@@ -43,7 +45,7 @@ html
                                     - for mask in masks do
                                         .col id="#{mask[0]}"
                                             h6.fw-bold.text-center #{mask[0]}
-                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/photos/northernlight.jpg" alt="Masked image style #{mask[0]}" title="#{mask[0]}"
+                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/photos/igloo.jpg" alt="Masked image style #{mask[0]}" title="#{mask[0]}"
 
                             h2#helpers.display-3.fw-bold.my-5.text-center Helper Classes
                             .container

@@ -29,7 +29,7 @@ $slim  = "- masks =[\\\n";
 foreach ($arrFiles as $file) {
     $path = pathinfo($dir.$file);
     if($path['extension'] === 'svg'){
-        $scss .= "\t"."\"".$path['filename']."\": '../img/".$path['filename'].".".$path['extension']."',\n";
+        $scss .= "\t"."\"".$path['filename']."\": 'img/".$path['filename'].".".$path['extension']."',\n";
         $slim .= "\t[\\\n\t\t'".$path['filename']."',\\\n\t\t'".$path['filename'].".".$path['extension']."'\\\n\t],\\\n";
     }
 }
