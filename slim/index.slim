@@ -8,6 +8,7 @@ html
         title MASK.CSS
         link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"
         link rel="stylesheet" href="mask.css"
+        link rel="stylesheet" href="demo.css"
     body
         div
             .row.g-0
@@ -38,11 +39,11 @@ html
                         section.py-3
 
                             .container
-                                .row.g-5.row-cols-1.row-cols-lg-2.row-cols-xl-4
+                                .row.g-5.row-cols-1.row-cols-lg-2.row-cols-xl-4#demo
                                     - for mask in masks do
                                         .col id="#{mask[0]}"
                                             h6.fw-bold.text-center #{mask[0]}
-                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/photos/canyon.jpg" alt="Masked image style #{mask[0]}" title="#{mask[0]}"
+                                            img class="img-fluid mask mask-#{mask[0]} mask-x-center mask-size-contain" src="img/photos/northernlight.jpg" alt="Masked image style #{mask[0]}" title="#{mask[0]}"
 
                             h2#helpers.display-3.fw-bold.my-5.text-center Helper Classes
                             .container
