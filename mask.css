@@ -102,7 +102,7 @@
 }
 .mask.mask-bubbling-bottom-inverted {
   -webkit-mask-image: url("img/bubbling-bottom-inverted.svg");
-  mask-image: url("img/bubbling-bottom-inverted.svg");
+  mask-image: url("img/bubbling-bottom-inverted.svg"); 
 }
 .mask.mask-bubbling-bottom {
   -webkit-mask-image: url("img/bubbling-bottom.svg");
