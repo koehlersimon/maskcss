@@ -18,3 +18,12 @@
         }
     }
 }
+
+body.demos{
+    background: linear-gradient(10deg, steelblue, #fff, #333);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
